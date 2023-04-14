@@ -16,6 +16,7 @@ public class Shop {
         clothes.add(new Shorts("Nike", Arrays.asList("White", "Blue"), 4000));
         for (int l = 0; l < clothes.size(); l++) {
             System.out.println((l+1)+". "+ clothes.get(l).name);
+            System.out.println("Ваш баланс: ");
         }
     }
 
