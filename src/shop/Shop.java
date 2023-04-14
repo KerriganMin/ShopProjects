@@ -17,6 +17,7 @@ public class Shop {
         for (int l = 0; l < clothes.size(); l++) {
             System.out.println((l+1)+". "+ clothes.get(l).name);
             System.out.println("Ваш баланс: ");
+            System.out.println("Ваш баланс: ");
         }
     }
 
