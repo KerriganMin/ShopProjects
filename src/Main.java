@@ -9,10 +9,11 @@ public class Main {
         Shop shop = new Shop();
         Cash cash = new Cash();
         while (true) {
-
+            for (int l = 0; l < shop.clothes.size(); l++) {
+                System.out.println((l+1)+". "+ shop.clothes.get(l).name);
+            }
             System.out.println("Введите номер одежды, которую хотите купить");
             Scanner scanner = new Scanner(System.in);
-            Scanner scannerColor = new Scanner(System.in);
             int selectedCloth = scanner.nextInt();
             Cloth cloth = shop.getCloth(selectedCloth);
 
